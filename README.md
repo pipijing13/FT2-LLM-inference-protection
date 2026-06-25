@@ -51,3 +51,15 @@ The scripts assume:
 - Access to at least one **CUDA-capable GPU**; experiments in the paper were conducted on NVIDIA A100 (AMD EPYC 7742 CPU, Rocky Linux 8.10) and NVIDIA H100 via GH200 Grace Hopper Superchip (NVIDIA Grace 72-core CPU, Rocky Linux 9.3).
 
 Before running evaluations, ensure the corresponding model checkpoints and datasets are downloaded and available, or modify the scripts to point to your local paths.
+
+## Citation
+if you use this tool for your research, please cite our HPDC25 paper:
+```
+@inproceedings{sun2025ft2,
+  title={Ft2: First-token-inspired online fault tolerance on critical layers for generative large language models},
+  author={Sun, Yu and Zhu, Zhu and Mulpuru, Cherish and Gioiosa, Roberto and Zhang, Zhao and Fang, Bo and Yang, Lishan},
+  booktitle={Proceedings of the 34th International Symposium on High-Performance Parallel and Distributed Computing},
+  pages={1--14},
+  year={2025}
+}
+```
