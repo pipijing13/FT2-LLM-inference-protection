@@ -53,7 +53,7 @@ The scripts assume:
 Before running evaluations, ensure the corresponding model checkpoints and datasets are downloaded and available, or modify the scripts to point to your local paths.
 
 ## Citation
-if you use this tool for your research, please cite our HPDC25 paper:
+if you use this code for your research, please cite our HPDC25 paper:
 ```
 @inproceedings{sun2025ft2,
   title={Ft2: First-token-inspired online fault tolerance on critical layers for generative large language models},
